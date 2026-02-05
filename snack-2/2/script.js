@@ -6,7 +6,6 @@ if ( firstWord.length > secondWord.length)
    message ='Ha vinto il primo giocatore'
 else if (firstWord.length < secondWord.length)
     message ='ha visto il secondo giocatore'
-else (firstWord.length == secondWord.length)
-    message ='pareggio'
+else  message ='pareggio'
 }
 console.log(message)
