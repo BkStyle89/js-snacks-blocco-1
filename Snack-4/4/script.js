@@ -7,7 +7,7 @@ const numeriDispari = [];
 for(i=0; i<6;i++){
     let numb = Number(prompt ('Inserisci il numero'));
     /* console.log(numb) */
-    if (i%2 !== 0)
+    if (numb%2 !== 0)
         numeriDispari.push(numb)
 }
 console.log('numeri dispari',numeriDispari)
